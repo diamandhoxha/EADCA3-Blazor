@@ -82,7 +82,7 @@ using EADCA3.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/fetchdata")]
+    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -91,8 +91,9 @@ using EADCA3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 45 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\FetchData.razor"
+#line 46 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\FetchData.razor"
        
+
     private Response news;
 
     public async Task Find()

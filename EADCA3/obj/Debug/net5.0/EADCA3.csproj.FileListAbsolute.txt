@@ -404,9 +404,7 @@ C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\EADCA3.csproj.CoreCom
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\EADCA3.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\EADCA3.RazorComponent.input.cache
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\FetchData.razor.g.cs
-C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Shared\SurveyPrompt.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
@@ -417,9 +415,7 @@ C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\EADCA3.TagHelpers.inp
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\EADCA3.TagHelpers.output.cache
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\EADCA3.RazorCoreGenerate.cache
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\App.razor.g.cs
-C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\FetchData.razor.g.cs
-C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
