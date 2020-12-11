@@ -9,38 +9,55 @@
 }
 else
 {
-    <table class="table">
+    @foreach (var rootdata in news.articles.ToList())
+    {
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Name: @rootdata.source.name</p>
+                <p>Author: @rootdata.author </p>
+                <p>Title: @rootdata.title</p>
+                <p>Description: @rootdata.description</p>
+                <a target="_blank" href="@rootdata.url">News Article</a>
+                <img class="img-fluid" src="@rootdata.urlToImage" />
+                <p>Published: @rootdata.publishedAt</p>
+                <p>@rootdata.content</p>
+            </div>
+        </div>
+    }
 
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Author</th>
-                <th>Title</th>
-                <th>Description</th>
-                <th>URL</th>
-                <th>Image</th>
-                <th>Published</th>
-                <th>Content</th>
-            </tr>
-        </thead>
 
-        <tbody>
-            @foreach (var rootdata in news.articles.ToList())
-            {
+    @*<table class="table">
+
+            <thead>
                 <tr>
-                    <td>@rootdata.source.name</td>
-                    <td>@rootdata.author</td>
-                    <td>@rootdata.title</td>
-                    <td>@rootdata.description</td>
-                    <td>@rootdata.url</td>
-                    <td>@rootdata.urlToImage"</td>
-                    <td>@rootdata.publishedAt</td>
-                    <td>@rootdata.content</td>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>URL</th>
+                    <th>Image</th>
+                    <th>Published</th>
+                    <th>Content</th>
                 </tr>
-            }
-        </tbody>
+            </thead>
 
-    </table>
+            <tbody>
+                @foreach (var rootdata in news.articles.ToList())
+                {
+                    <tr>
+                        <td>@rootdata.source.name</td>
+                        <td>@rootdata.author</td>
+                        <td>@rootdata.title</td>
+                        <td>@rootdata.description</td>
+                        <td>@rootdata.url</td>
+                        <td>@rootdata.urlToImage"</td>
+                        <td>@rootdata.publishedAt</td>
+                        <td>@rootdata.content</td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>*@
 }
 
 @code {
