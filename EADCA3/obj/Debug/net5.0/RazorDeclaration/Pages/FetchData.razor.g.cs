@@ -91,7 +91,7 @@ using EADCA3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 63 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\FetchData.razor"
+#line 94 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\FetchData.razor"
        
 
     private Response news;

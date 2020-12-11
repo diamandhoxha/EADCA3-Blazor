@@ -1,6 +1,29 @@
 ﻿@page "/"
 @inject HttpClient Http
 
+<style>
+    .row{
+        margin-bottom: 10%;
+    }
+    #newsOutlet {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    #newsAuthor {
+        text-align: center;
+    }
+
+    #newsTitle{
+        font-size: 30px;
+    }
+
+    #spacing{
+        margin-bottom:10%;
+    }
+
+</style>
+    <link href="../wwwroot/css/news.css" rel="stylesheet">
 <h1>News</h1>
 
 @if (news == null)
@@ -12,16 +35,21 @@ else
     @foreach (var rootdata in news.articles.ToList())
     {
         <div class="row">
-            <div class="col-lg-12">
-                <p>Name: @rootdata.source.name</p>
-                <p>Author: @rootdata.author </p>
-                <p>Title: @rootdata.title</p>
-                <p>Description: @rootdata.description</p>
-                <a target="_blank" href="@rootdata.url">News Article</a>
-                <img class="img-fluid" src="@rootdata.urlToImage" alt="No Image Found"/>
-                <p>Published: @rootdata.publishedAt</p>
-                <p>@rootdata.content</p>
+            <div class="col-2"></div>
+
+            <div class="col-8">
+
+                <p id="newsOutlet">@rootdata.source.name</p>
+                <p id="newsAuthor"><small>Written by @rootdata.author</small></p>
+                <p id="newsTitle">@rootdata.title</p>
+                <p>@rootdata.description</p>
+                <img class="img-fluid" src="@rootdata.urlToImage" alt="No Image Found" />
+                <p><small>Published At: @rootdata.publishedAt</small></p>
+                <p>@rootdata.content <a target="_blank" href="@rootdata.url">Continue Reading ...</a></p>
+
             </div>
+
+            <div class="col-2"></div>
         </div>
     }
 
@@ -58,6 +86,9 @@ else
             </tbody>
 
         </table>*@
+
+
+
 }
 
 @code {
