@@ -1,4 +1,4 @@
-﻿@page "/"
+﻿@page "/FetchData"
 @inject HttpClient Http
 
 <style>
@@ -45,7 +45,7 @@ else
                 <p>@rootdata.description</p>
                 <img class="img-fluid" src="@rootdata.urlToImage" alt="No Image Found" />
                 <p><small>Published At: @rootdata.publishedAt</small></p>
-                <p>@rootdata.content <a target="_blank" href="@rootdata.url">Continue Reading ...</a></p>
+                <p>@rootdata.content <a target="_blank" href="@rootdata.url">Continue Reading</a></p>
 
             </div>
 
