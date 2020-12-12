@@ -1,10 +1,11 @@
-﻿@page "/FetchData"
+﻿@page "/AbcNews"
 @inject HttpClient Http
 
 <style>
-    .row{
+    .row {
         margin-bottom: 10%;
     }
+
     #newsOutlet {
         text-align: center;
         font-size: 50px;
@@ -14,16 +15,15 @@
         text-align: center;
     }
 
-    #newsTitle{
+    #newsTitle {
         font-size: 30px;
     }
 
-    #spacing{
-        margin-bottom:10%;
+    #spacing {
+        margin-bottom: 10%;
     }
-
 </style>
-    <link href="../wwwroot/css/news.css" rel="stylesheet">
+<link href="../wwwroot/css/news.css" rel="stylesheet">
 <h1>News</h1>
 
 @if (news == null)
@@ -45,50 +45,13 @@ else
                 <p>@rootdata.description</p>
                 <img class="img-fluid" src="@rootdata.urlToImage" alt="No Image Found" />
                 <p><small>Published At: @rootdata.publishedAt</small></p>
-                <p>@rootdata.content <a target="_blank" href="@rootdata.url">Continue Reading ...</a></p>
+                <p>@rootdata.content <a target="_blank" href="@rootdata.url">Go To Source</a></p>
 
             </div>
 
             <div class="col-2"></div>
         </div>
     }
-
-
-    @*<table class="table">
-
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Author</th>
-                    <th>Title</th>
-                    <th>Description</th>
-                    <th>URL</th>
-                    <th>Image</th>
-                    <th>Published</th>
-                    <th>Content</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                @foreach (var rootdata in news.articles.ToList())
-                {
-                    <tr>
-                        <td>@rootdata.source.name</td>
-                        <td>@rootdata.author</td>
-                        <td>@rootdata.title</td>
-                        <td>@rootdata.description</td>
-                        <td>@rootdata.url</td>
-                        <td>@rootdata.urlToImage"</td>
-                        <td>@rootdata.publishedAt</td>
-                        <td>@rootdata.content</td>
-                    </tr>
-                }
-            </tbody>
-
-        </table>*@
-
-
-
 }
 
 @code {
@@ -97,10 +60,9 @@ else
 
     public async Task Find()
     {
-        //This options is necessary because the serializer of GetFromJson not recognize null values throwing a exception, in this particular case somes Ids is null
         System.Text.Json.JsonSerializerOptions options = new System.Text.Json.JsonSerializerOptions() { IgnoreNullValues = true };
 
-        news = await Http.GetFromJsonAsync<Response>("https://newsapi.org/v2/top-headlines?country=us&apiKey=a15cbcc05e814709a1749fbec881c2c2", options);
+        news = await Http.GetFromJsonAsync<Response>("https://newsapi.org/v2/top-headlines?sources=abc-news&apiKey=a15cbcc05e814709a1749fbec881c2c2", options);
     }
 
     protected override async Task OnInitializedAsync()
@@ -133,5 +95,4 @@ else
         public DateTime publishedAt { get; set; }
         public string content { get; set; }
     }
-
 }

@@ -27,7 +27,7 @@
     }
 
     int selected;
-    ComponentBase[] components = { new FetchData(), new Test() };
+    ComponentBase[] components = { new FetchData(), new AbcNews(), new CbsNews(), new Cnn() };
     Type[] types => components.Select(c => c.GetType()).ToArray();
 
 }

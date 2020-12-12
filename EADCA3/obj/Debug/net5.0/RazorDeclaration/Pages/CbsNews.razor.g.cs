@@ -82,8 +82,8 @@ using EADCA3.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/CbsNews")]
+    public partial class CbsNews : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -91,26 +91,53 @@ using EADCA3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\Index.razor"
+#line 57 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\CbsNews.razor"
        
-    RenderFragment GetRenderFragment(Type type)
+
+    private Response news;
+
+    public async Task Find()
     {
-        RenderFragment renderFragment = renderTreeBuilder =>
-        {
-            renderTreeBuilder.OpenComponent(0, type);
-            renderTreeBuilder.CloseComponent();
-        };
-        return renderFragment;
+        System.Text.Json.JsonSerializerOptions options = new System.Text.Json.JsonSerializerOptions() { IgnoreNullValues = true };
+
+        news = await Http.GetFromJsonAsync<Response>("https://newsapi.org/v2/top-headlines?sources=cbs-news&apiKey=a15cbcc05e814709a1749fbec881c2c2", options);
     }
 
-    int selected;
-    ComponentBase[] components = { new FetchData(), new AbcNews(), new CbsNews(), new Cnn() };
-    Type[] types => components.Select(c => c.GetType()).ToArray();
+    protected override async Task OnInitializedAsync()
+    {
+        await Find();
+    }
 
+    public class Response
+    {
+        public string status { get; set; }
+        public int totalResults { get; set; }
+        //Work with arrays, Lists etc... But, Interfaces is best because parsing only the features to property not a instance a List.
+        public IEnumerable<Root> articles { get; set; }
+    }
+
+    public class Source
+    {
+        public string id { get; set; }
+        public string name { get; set; }
+    }
+
+    public class Root
+    {
+        public Source source { get; set; }
+        public string author { get; set; }
+        public string title { get; set; }
+        public string description { get; set; }
+        public string url { get; set; }
+        public string urlToImage { get; set; }
+        public DateTime publishedAt { get; set; }
+        public string content { get; set; }
+    }
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
     }
 }
 #pragma warning restore 1591

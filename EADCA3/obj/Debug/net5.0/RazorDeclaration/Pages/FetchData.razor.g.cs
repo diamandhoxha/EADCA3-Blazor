@@ -101,7 +101,7 @@ using EADCA3.Shared;
         //This options is necessary because the serializer of GetFromJson not recognize null values throwing a exception, in this particular case somes Ids is null
         System.Text.Json.JsonSerializerOptions options = new System.Text.Json.JsonSerializerOptions() { IgnoreNullValues = true };
 
-        news = await Http.GetFromJsonAsync<Response>("https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=a15cbcc05e814709a1749fbec881c2c2", options);
+        news = await Http.GetFromJsonAsync<Response>("https://newsapi.org/v2/top-headlines?country=us&apiKey=a15cbcc05e814709a1749fbec881c2c2", options);
     }
 
     protected override async Task OnInitializedAsync()

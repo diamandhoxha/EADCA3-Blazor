@@ -628,5 +628,9 @@ C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\ref\EADCA3.dll
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\EADCA3.pdb
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
-C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\Test.razor.g.cs
-C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\Test.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\AbcNews.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\CbsNews.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\AbcNews.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\CbsNews.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\Cnn.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\Cnn.razor.g.cs
