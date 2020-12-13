@@ -83,7 +83,7 @@ using EADCA3.Shared;
 #line hidden
 #nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/FetchData")]
-    public partial class FetchData : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class TopHeadlines : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -91,7 +91,7 @@ using EADCA3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 94 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\FetchData.razor"
+#line 94 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\TopHeadlines.razor"
        
 
     private Response news;

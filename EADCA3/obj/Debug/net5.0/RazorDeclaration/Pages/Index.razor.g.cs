@@ -104,7 +104,7 @@ using EADCA3.Shared;
     }
 
     int selected;
-    ComponentBase[] components = { new FetchData(), new AbcNews(), new CbsNews(), new Cnn(), new FoxNews(), new NbcNews(), new Espn() };
+    ComponentBase[] components = { new TopHeadlines(), new AbcNews(), new CbsNews(), new Cnn(), new FoxNews(), new NbcNews(), new Espn() };
     Type[] types => components.Select(c => c.GetType()).ToArray();
 
 

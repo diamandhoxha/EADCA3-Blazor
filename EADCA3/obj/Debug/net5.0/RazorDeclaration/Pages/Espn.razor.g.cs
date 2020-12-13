@@ -91,7 +91,7 @@ using EADCA3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 52 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\Espn.razor"
+#line 51 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\Espn.razor"
        
 
     private Response news;

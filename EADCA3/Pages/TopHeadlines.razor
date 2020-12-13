@@ -2,9 +2,10 @@
 @inject HttpClient Http
 
 <style>
-    .row{
+    .row {
         margin-bottom: 10%;
     }
+
     #newsOutlet {
         text-align: center;
         font-size: 50px;
@@ -14,16 +15,15 @@
         text-align: center;
     }
 
-    #newsTitle{
+    #newsTitle {
         font-size: 30px;
     }
 
-    #spacing{
-        margin-bottom:10%;
+    #spacing {
+        margin-bottom: 10%;
     }
-
 </style>
-    <link href="../wwwroot/css/news.css" rel="stylesheet">
+<link href="../wwwroot/css/news.css" rel="stylesheet">
 <h1>Top Headlines in the US</h1>
 
 @if (news == null)
