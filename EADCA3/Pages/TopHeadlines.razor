@@ -1,29 +1,6 @@
 ﻿@page "/FetchData"
 @inject HttpClient Http
 
-<style>
-    .row {
-        margin-bottom: 10%;
-    }
-
-    #newsOutlet {
-        text-align: center;
-        font-size: 50px;
-    }
-
-    #newsAuthor {
-        text-align: center;
-    }
-
-    #newsTitle {
-        font-size: 30px;
-    }
-
-    #spacing {
-        margin-bottom: 10%;
-    }
-</style>
-<link href="../wwwroot/css/news.css" rel="stylesheet">
 <h1>Top Headlines in the US</h1>
 
 @if (news == null)

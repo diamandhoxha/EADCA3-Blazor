@@ -91,7 +91,7 @@ using EADCA3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\Index.razor"
+#line 17 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\Index.razor"
        
     RenderFragment GetRenderFragment(Type type)
     {

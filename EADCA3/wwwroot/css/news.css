@@ -4,3 +4,26 @@
 #newsOutlet {
     text-align: center;
 }
+
+#newsOutlet {
+    text-align: center;
+    font-size: 50px;
+}
+
+#newsAuthor {
+    text-align: center;
+}
+
+#newsTitle {
+    font-size: 30px;
+}
+
+#spacing {
+    margin-bottom: 10%;
+}
+
+h1 {
+    margin-top: 2%;
+    text-align: center;
+    margin-bottom: 5%;
+}

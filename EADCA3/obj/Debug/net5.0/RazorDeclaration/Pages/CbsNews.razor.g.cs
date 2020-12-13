@@ -91,7 +91,7 @@ using EADCA3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 51 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\CbsNews.razor"
+#line 33 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\CbsNews.razor"
        
 
     private Response news;
