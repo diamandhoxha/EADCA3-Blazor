@@ -91,7 +91,7 @@ using EADCA3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 57 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\Espn.razor"
+#line 52 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\Espn.razor"
        
 
     private Response news;
@@ -112,7 +112,6 @@ using EADCA3.Shared;
     {
         public string status { get; set; }
         public int totalResults { get; set; }
-        //Work with arrays, Lists etc... But, Interfaces is best because parsing only the features to property not a instance a List.
         public IEnumerable<Root> articles { get; set; }
     }
 

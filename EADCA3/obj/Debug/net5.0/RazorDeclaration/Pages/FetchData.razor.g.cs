@@ -98,7 +98,7 @@ using EADCA3.Shared;
 
     public async Task Find()
     {
-        //This options is necessary because the serializer of GetFromJson not recognize null values throwing a exception, in this particular case somes Ids is null
+        //No longer throws exception even if value is null
         System.Text.Json.JsonSerializerOptions options = new System.Text.Json.JsonSerializerOptions() { IgnoreNullValues = true };
 
         news = await Http.GetFromJsonAsync<Response>("https://newsapi.org/v2/top-headlines?country=us&apiKey=a15cbcc05e814709a1749fbec881c2c2", options);
@@ -113,7 +113,6 @@ using EADCA3.Shared;
     {
         public string status { get; set; }
         public int totalResults { get; set; }
-        //Work with arrays, Lists etc... But, Interfaces is best because parsing only the features to property not a instance a List.
         public IEnumerable<Root> articles { get; set; }
     }
 

@@ -6,12 +6,7 @@
         margin-bottom: 10%;
     }
 
-    #newsOutlet {
-        text-align: center;
-        font-size: 50px;
-    }
-
-    #newsAuthor {
+    h1 {
         text-align: center;
     }
 
@@ -24,7 +19,7 @@
     }
 </style>
 <link href="../wwwroot/css/news.css" rel="stylesheet">
-<h1>News</h1>
+<h1>ESPN</h1>
 
 @if (news == null)
 {
@@ -39,10 +34,9 @@ else
 
             <div class="col-8">
 
-                <p id="newsOutlet">@rootdata.source.name</p>
-                <p id="newsAuthor"><small>Written by @rootdata.author</small></p>
                 <p id="newsTitle">@rootdata.title</p>
                 <p>@rootdata.description</p>
+                <p id="newsAuthor"><small>Written by @rootdata.author</small></p>
                 <img class="img-fluid" src="@rootdata.urlToImage" alt="No Image Found" />
                 <p><small>Published At: @rootdata.publishedAt</small></p>
                 <p>@rootdata.content <a target="_blank" href="@rootdata.url">Go To Source</a></p>
