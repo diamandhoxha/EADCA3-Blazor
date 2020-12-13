@@ -634,3 +634,9 @@ C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\AbcNews.r
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\CbsNews.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\Cnn.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\Cnn.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\FoxNews.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\NbcNews.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\FoxNews.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\NbcNews.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\Espn.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\Espn.razor.g.cs

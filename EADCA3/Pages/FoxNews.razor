@@ -1,4 +1,4 @@
-﻿@page "/CbsNews"
+﻿@page "/FoxNews"
 @inject HttpClient Http
 
 <style>
@@ -62,7 +62,7 @@ else
     {
         System.Text.Json.JsonSerializerOptions options = new System.Text.Json.JsonSerializerOptions() { IgnoreNullValues = true };
 
-        news = await Http.GetFromJsonAsync<Response>("https://newsapi.org/v2/top-headlines?sources=cbs-news&apiKey=a15cbcc05e814709a1749fbec881c2c2", options);
+        news = await Http.GetFromJsonAsync<Response>("https://newsapi.org/v2/top-headlines?sources=fox-news&apiKey=a15cbcc05e814709a1749fbec881c2c2", options);
     }
 
     protected override async Task OnInitializedAsync()
