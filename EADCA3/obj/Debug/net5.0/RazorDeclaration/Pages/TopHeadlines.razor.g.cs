@@ -91,7 +91,7 @@ using EADCA3.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 71 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\TopHeadlines.razor"
+#line 34 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\TopHeadlines.razor"
        
 
     private Response news;
@@ -109,30 +109,6 @@ using EADCA3.Shared;
         await Find();
     }
 
-    public class Response
-    {
-        public string status { get; set; }
-        public int totalResults { get; set; }
-        public IEnumerable<Root> articles { get; set; }
-    }
-
-    public class Source
-    {
-        public string id { get; set; }
-        public string name { get; set; }
-    }
-
-    public class Root
-    {
-        public Source source { get; set; }
-        public string author { get; set; }
-        public string title { get; set; }
-        public string description { get; set; }
-        public string url { get; set; }
-        public string urlToImage { get; set; }
-        public DateTime publishedAt { get; set; }
-        public string content { get; set; }
-    }
 
 
 #line default

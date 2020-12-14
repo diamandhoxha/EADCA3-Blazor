@@ -22,50 +22,13 @@ else
                 <p>@rootdata.description</p>
                 <img class="img-fluid" src="@rootdata.urlToImage" alt="No Image Found" />
                 <p><small>Published At: @rootdata.publishedAt</small></p>
-                <p>@rootdata.content <a target="_blank" href="@rootdata.url">Continue Reading ...</a></p>
+                <p id="spacing">@rootdata.content <a target="_blank" href="@rootdata.url">Continue Reading ...</a></p>
 
             </div>
 
             <div class="col-2"></div>
         </div>
     }
-
-
-    @*<table class="table">
-
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Author</th>
-                    <th>Title</th>
-                    <th>Description</th>
-                    <th>URL</th>
-                    <th>Image</th>
-                    <th>Published</th>
-                    <th>Content</th>
-                </tr>
-            </thead>
-
-            <tbody>
-                @foreach (var rootdata in news.articles.ToList())
-                {
-                    <tr>
-                        <td>@rootdata.source.name</td>
-                        <td>@rootdata.author</td>
-                        <td>@rootdata.title</td>
-                        <td>@rootdata.description</td>
-                        <td>@rootdata.url</td>
-                        <td>@rootdata.urlToImage"</td>
-                        <td>@rootdata.publishedAt</td>
-                        <td>@rootdata.content</td>
-                    </tr>
-                }
-            </tbody>
-
-        </table>*@
-
-
-
 }
 
 @code {
@@ -85,29 +48,5 @@ else
         await Find();
     }
 
-    public class Response
-    {
-        public string status { get; set; }
-        public int totalResults { get; set; }
-        public IEnumerable<Root> articles { get; set; }
-    }
-
-    public class Source
-    {
-        public string id { get; set; }
-        public string name { get; set; }
-    }
-
-    public class Root
-    {
-        public Source source { get; set; }
-        public string author { get; set; }
-        public string title { get; set; }
-        public string description { get; set; }
-        public string url { get; set; }
-        public string urlToImage { get; set; }
-        public DateTime publishedAt { get; set; }
-        public string content { get; set; }
-    }
 
 }

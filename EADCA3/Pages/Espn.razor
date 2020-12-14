@@ -21,7 +21,7 @@ else
                 <p id="newsAuthor"><small>Written by @rootdata.author</small></p>
                 <img class="img-fluid" src="@rootdata.urlToImage" alt="No Image Found" />
                 <p><small>Published At: @rootdata.publishedAt</small></p>
-                <p>@rootdata.content <a target="_blank" href="@rootdata.url">Go To Source</a></p>
+                <p id="spacing">@rootdata.content <a target="_blank" href="@rootdata.url">Go To Source</a></p>
 
             </div>
 
@@ -46,28 +46,4 @@ else
         await Find();
     }
 
-    public class Response
-    {
-        public string status { get; set; }
-        public int totalResults { get; set; }
-        public IEnumerable<Root> articles { get; set; }
-    }
-
-    public class Source
-    {
-        public string id { get; set; }
-        public string name { get; set; }
-    }
-
-    public class Root
-    {
-        public Source source { get; set; }
-        public string author { get; set; }
-        public string title { get; set; }
-        public string description { get; set; }
-        public string url { get; set; }
-        public string urlToImage { get; set; }
-        public DateTime publishedAt { get; set; }
-        public string content { get; set; }
-    }
 }
