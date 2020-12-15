@@ -640,3 +640,6 @@ C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Page
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\Espn.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\RazorDeclaration\Pages\TopHeadlines.razor.g.cs
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\Razor\Pages\TopHeadlines.razor.g.cs
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\bin\Debug\net5.0\wwwroot\_framework\AWSSDK.dll.gz
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\bin\Debug\net5.0\wwwroot\_framework\AWSSDK.dll
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Debug\net5.0\build-gz\jJsNjNxt.gz

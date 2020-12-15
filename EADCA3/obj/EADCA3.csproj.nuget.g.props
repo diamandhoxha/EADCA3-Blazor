@@ -20,5 +20,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\hhoxh\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\5.0.1</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
+    <PkgAWSSDK Condition=" '$(PkgAWSSDK)' == '' ">C:\Users\hhoxh\.nuget\packages\awssdk\2.3.55.2</PkgAWSSDK>
   </PropertyGroup>
 </Project>
