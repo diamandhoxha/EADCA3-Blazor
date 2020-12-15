@@ -82,13 +82,6 @@ using EADCA3.Shared;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\TopHeadlines.razor"
-using news.cs;
-
-#line default
-#line hidden
-#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/FetchData")]
     public partial class TopHeadlines : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -98,7 +91,7 @@ using news.cs;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 35 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\TopHeadlines.razor"
+#line 34 "C:\Users\hhoxh\source\repos\EADCA3\EADCA3\Pages\TopHeadlines.razor"
        
 
     private Response news;
