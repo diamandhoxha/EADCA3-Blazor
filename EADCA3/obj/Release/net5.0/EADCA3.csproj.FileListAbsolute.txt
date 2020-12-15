@@ -640,3 +640,12 @@ C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Release\net5.0\EADCA3.csproj.CopyC
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Release\net5.0\EADCA3.dll
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Release\net5.0\ref\EADCA3.dll
 C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Release\net5.0\EADCA3.pdb
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\bin\Release\net5.0\wwwroot\_framework\Microsoft.PowerBI.Api.dll.gz
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\bin\Release\net5.0\wwwroot\_framework\Microsoft.Rest.ClientRuntime.dll.gz
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\bin\Release\net5.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\bin\Release\net5.0\wwwroot\_framework\Microsoft.PowerBI.Api.dll
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\bin\Release\net5.0\wwwroot\_framework\Microsoft.Rest.ClientRuntime.dll
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\bin\Release\net5.0\wwwroot\_framework\Newtonsoft.Json.dll
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Release\net5.0\build-gz\3Ub7ur2B.gz
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Release\net5.0\build-gz\DAhRIMV+.gz
+C:\Users\hhoxh\source\repos\EADCA3\EADCA3\obj\Release\net5.0\build-gz\T1OMDT2G.gz

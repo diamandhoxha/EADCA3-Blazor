@@ -1,10 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "f5Nci1/1w9uZI7iLGQ6mZ59jLscjPhJt218gAcBbJlLvV/IKYPvTypUNzXsW8jN1nnVpBe9w/VgaB8kix+YFvQ==",
+  "dgSpecHash": "+/APj7EmORYmxeiIoU9R6ccjy2BCnFCcu7TVBwtp9kVIwabJws84JXNlasFcmq7LBNeG6H5ShgvHxfv8iGrstA==",
   "success": true,
   "projectFilePath": "C:\\Users\\hhoxh\\source\\repos\\EADCA3\\EADCA3\\EADCA3.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\hhoxh\\.nuget\\packages\\awssdk\\2.3.55.2\\awssdk.2.3.55.2.nupkg.sha512",
     "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.1\\microsoft.aspnetcore.authorization.5.0.1.nupkg.sha512",
     "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.1\\microsoft.aspnetcore.components.5.0.1.nupkg.sha512",
     "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\5.0.1\\microsoft.aspnetcore.components.analyzers.5.0.1.nupkg.sha512",
@@ -33,16 +32,5 @@
     "C:\\Users\\hhoxh\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
     "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.1\\microsoft.netcore.app.runtime.browser-wasm.5.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'AWSSDK 2.3.55.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
-      "libraryId": "AWSSDK",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  "logs": []
 }

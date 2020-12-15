@@ -7,7 +7,6 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "AWSSDK.dll": "sha256-HHf4d9pkqmEpJkvdfT1ujgWCa2+zAbqpT5EXvTm\/f\/8=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-l3ZLL\/J5Qez21fDEDw2b32hOtlT11ly1GmmKGPMfMWQ=",
       "Microsoft.AspNetCore.Components.dll": "sha256-EPSZDBpWHRQ8gG6\/z95pneA5\/LyXLj2W4QNUXpEqKk4=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-D1w9d3k8\/YsRHjUWE8r0mcincGLiFMnCKofplsO+ND8=",
