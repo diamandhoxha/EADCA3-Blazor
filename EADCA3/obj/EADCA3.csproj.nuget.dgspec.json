@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[5.0.1, )"
             },
+            "Microsoft.PowerBI.Api": {
+              "target": "Package",
+              "version": "[3.20.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[5.0.0, )"

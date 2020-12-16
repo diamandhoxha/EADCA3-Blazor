@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+/APj7EmORYmxeiIoU9R6ccjy2BCnFCcu7TVBwtp9kVIwabJws84JXNlasFcmq7LBNeG6H5ShgvHxfv8iGrstA==",
+  "dgSpecHash": "kvHiDOOyOIb8WvFTNOQ/KhfcTDTZI5crLL3cVGru4RNb18P3NWgyUR13ujT/QDsE8b/Mdl/C5cvVkoTAaRuVOg==",
   "success": true,
   "projectFilePath": "C:\\Users\\hhoxh\\source\\repos\\EADCA3\\EADCA3\\EADCA3.csproj",
   "expectedPackageFiles": [
@@ -28,8 +28,12 @@
     "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.jsinterop\\5.0.1\\microsoft.jsinterop.5.0.1.nupkg.sha512",
     "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.jsinterop.webassembly\\5.0.1\\microsoft.jsinterop.webassembly.5.0.1.nupkg.sha512",
+    "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.powerbi.api\\3.20.0\\microsoft.powerbi.api.3.20.0.nupkg.sha512",
+    "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.rest.clientruntime\\2.3.21\\microsoft.rest.clientruntime.2.3.21.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\hhoxh\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\hhoxh\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\hhoxh\\.nuget\\packages\\system.security.cryptography.cng\\4.7.0\\system.security.cryptography.cng.4.7.0.nupkg.sha512",
     "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.1\\microsoft.netcore.app.runtime.browser-wasm.5.0.1.nupkg.sha512"
   ],
   "logs": []
