@@ -19,7 +19,7 @@ jobs:
       with:
         dotnet-version: 5.0.100
 
-    # publishes Blazor project to the release-folder
+    # publishes Blazor project to the release-folde
     - name: Publish .NET Core Project
       run: dotnet publish EADCA3/EADCA3.csproj -c Release -o release --nologo
 
