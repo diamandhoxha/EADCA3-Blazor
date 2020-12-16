@@ -1,4 +1,4 @@
-name: 'Publish applicatio'
+name: 'Publish application'
 on: push
 
 jobs:
