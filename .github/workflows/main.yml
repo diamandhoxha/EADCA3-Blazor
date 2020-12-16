@@ -28,4 +28,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: /release/wwwroot
+        FOLDER: EADCA3/bin/release/net5.0/wwwroot
