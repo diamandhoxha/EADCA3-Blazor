@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters>
-  <parameter name="IIS Web Application Name" description="" value="EADCA320201215175008" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\hhoxh\\source\\repos\\EADCA3\\EADCA3\\obj\\Release\\net5\.0\\browser-wasm\\PubTmp\\Out\\$" />
-  </parameter>
-</parameters>
