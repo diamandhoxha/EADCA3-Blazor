@@ -1,31 +1,37 @@
-name: Deploy to GitHub Pages
-
-# Run workflow on every push to the master branch
-on:
-  push:
-    branches: [ master ]
+name: 'Publish applicatio'
+on: push
 
 jobs:
-  deploy-to-github-pages:
-    # use ubuntu-latest image to run steps o
+  build:
     runs-on: ubuntu-latest
     steps:
-    # uses GitHub's checkout action to checkout code form the master branch
-    - uses: actions/checkout@v2
-    
-    # sets up .NET Core SDK 3.1
-    - name: Setup .NET Core SDK
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 5.0.100
+        # Checkout the code
+        - uses: actions/checkout@v2
 
-    # publishes Blazor project to the release-folde
-    - name: Publish .NET Core Project
-      run: dotnet publish EADCA3/EADCA3.csproj -c Release -o release --nologo
+        # Install .NET Core SDK
+        - name: Setup .NET Core
+          uses: actions/setup-dotnet@v1
+          with:
+            dotnet-version: 5.0.100
 
-    - name: Commit wwwroot to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: EADCA3/bin/Release/net5.0/wwwroot
+        # Run tests
+        - name: Test
+          run: dotnet test
+
+        # Generate the website
+        - name: Publish
+          run: dotnet publish EADCA3/EADCA3.csproj --configuration Release
+
+        # Publish the website
+        - name: GitHub Pages action
+          if: ${{ github.ref == 'refs/heads/master' }} # Publish only when the push is on master
+          uses: peaceiris/actions-gh-pages@v3.6.1
+          with:
+            access_token: ${{ secrets.PUBLISH_TOKEN }}
+            publish_branch: gh-pages
+            publish_dir: EADCA3/bin/Release/net5.0/publish/wwwroot
+            allow_empty_commit: false
+            keep_files: false
+            force_orphan: true
+            # TODO uncomment the following line if you have a custom domain name
+            # cname: demo.meziantou.net
