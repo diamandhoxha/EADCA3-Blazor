@@ -1,0 +1,49 @@
+﻿@page "/FoxNews"
+@inject HttpClient Http
+
+<h1>Fox News</h1>
+
+@if (news == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    @foreach (var rootdata in news.articles.ToList())
+    {
+        <div class="row">
+            <div class="col-2"></div>
+
+            <div class="col-8">
+
+                <p id="newsTitle">@rootdata.title</p>
+                <p>@rootdata.description</p>
+                <p id="newsAuthor"><small>Written by @rootdata.author</small></p>
+                <img class="img-fluid" src="@rootdata.urlToImage" alt="No Image Found" />
+                <p><small>Published At: @rootdata.publishedAt</small></p>
+                <p id="spacing">@rootdata.content <a target="_blank" href="@rootdata.url">Go To Source</a></p>
+
+            </div>
+
+            <div class="col-2"></div>
+        </div>
+    }
+}
+
+@code {
+
+    private Response news;
+
+    public async Task Find()
+    {
+        System.Text.Json.JsonSerializerOptions options = new System.Text.Json.JsonSerializerOptions() { IgnoreNullValues = true };
+
+        news = await Http.GetFromJsonAsync<Response>("https://newsapi.org/v2/top-headlines?sources=fox-news&apiKey=a15cbcc05e814709a1749fbec881c2c2", options);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Find();
+    }
+
+}
