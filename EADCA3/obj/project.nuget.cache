@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kvHiDOOyOIb8WvFTNOQ/KhfcTDTZI5crLL3cVGru4RNb18P3NWgyUR13ujT/QDsE8b/Mdl/C5cvVkoTAaRuVOg==",
+  "dgSpecHash": "5LNuDFRawXxwtxOAodrCmxXtrJiM3MOyc6QFABUuR1PjLem4bbe3H+PqMS/8TTMLRo/4kjobNF1gaec4xJmFyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hhoxh\\source\\repos\\EADCA3\\EADCA3\\EADCA3.csproj",
+  "projectFilePath": "C:\\Users\\hhoxh\\EADCA3-Blazor\\EADCA3\\EADCA3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.1\\microsoft.aspnetcore.authorization.5.0.1.nupkg.sha512",
     "C:\\Users\\hhoxh\\.nuget\\packages\\microsoft.aspnetcore.components\\5.0.1\\microsoft.aspnetcore.components.5.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hhoxh\\source\\repos\\EADCA3\\EADCA3\\EADCA3.csproj": {}
+    "C:\\Users\\hhoxh\\EADCA3-Blazor\\EADCA3\\EADCA3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hhoxh\\source\\repos\\EADCA3\\EADCA3\\EADCA3.csproj": {
+    "C:\\Users\\hhoxh\\EADCA3-Blazor\\EADCA3\\EADCA3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hhoxh\\source\\repos\\EADCA3\\EADCA3\\EADCA3.csproj",
+        "projectUniqueName": "C:\\Users\\hhoxh\\EADCA3-Blazor\\EADCA3\\EADCA3.csproj",
         "projectName": "EADCA3",
-        "projectPath": "C:\\Users\\hhoxh\\source\\repos\\EADCA3\\EADCA3\\EADCA3.csproj",
+        "projectPath": "C:\\Users\\hhoxh\\EADCA3-Blazor\\EADCA3\\EADCA3.csproj",
         "packagesPath": "C:\\Users\\hhoxh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hhoxh\\source\\repos\\EADCA3\\EADCA3\\obj\\",
+        "outputPath": "C:\\Users\\hhoxh\\EADCA3-Blazor\\EADCA3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
